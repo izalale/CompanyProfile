@@ -1,0 +1,200 @@
+/* Add here all your CSS customizations */
+@media (min-width: 992px) {
+  #header .header-nav-main nav > ul > li.open > a, #header .header-nav-main nav > ul > li:hover > a {
+      background: #e11429;
+  }
+}
+@media (max-width: 991px) {
+  #header .header-nav-main nav > ul > li > a, #header .header-nav-main nav > ul > li > a:focus, #header .header-nav-main nav > ul > li > a:hover {
+      color: #000;
+  }
+  #header .header-nav-main nav > ul > li.active > a, #header .header-nav-main nav > ul > li.active > a:focus, #header .header-nav-main nav > ul > li.active > a:hover {
+      background-color: #e11429;
+  }
+}
+#header .header-btn-collapse-nav {
+    background: #e11429;
+}
+a {color: #444;}
+a:focus {color: #e11429;}
+.thumb-info .thumb-info-title {
+  background: #e40d1e;
+  bottom: 10%;
+  color: #FFF;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #DC3023;
+}
+html .heading-primary, html .lnk-primary, html .text-color-primary {
+  color: #DC3023!important;
+}
+ul.nav-pills > li.active > a {
+  background-color: #e11429;
+}
+.list.list-icons.list-icons-style-3 li > .fa:first-child, .list.list-icons.list-icons-style-3 li a:first-child > .fa:first-child, .list.list-icons.list-icons-style-3 li > .icons:first-child, .list.list-icons.list-icons-style-3 li a:first-child > .icons:first-child {
+  background-color: #e40d1e;
+}
+.thumb-info .thumb-info-type {
+    background-color: #D24D57;
+}
+.thumb-info-social-icons a {
+    background-color: #e40d1e;
+}
+.thumb-info .thumb-info-action-icon {
+    background-color: #e40d1e;
+}
+.heading.heading-middle-border:before {
+  border-top: 1px solid #e40d1e;
+  border-top-width: 5px;
+}
+html .heading.heading-primary h1, html .heading.heading-primary h2, html .heading.heading-primary h3, html .heading.heading-primary h4, html .heading.heading-primary h5, html .heading.heading-primary h6 {
+    border-color: #e11429;
+}
+html .btn-primary {
+    color: #ffffff;
+    background-color: #e40d1e;
+    border-color: #d24d57 #d24d57 #d24d57;
+}
+html .btn-primary:hover {
+    border-color: #C91F37 #C91F37 #C91F37;
+    background-color: #C91F37;
+}
+html body .tabs .nav-tabs li.active a, html.dark body .tabs .nav-tabs li.active a {
+    border-top-color: #e40d1e;
+    color: #395563;
+}
+html body .tabs .nav-tabs a:hover, html.dark body .tabs .nav-tabs a:hover, html body .tabs .nav-tabs a:focus, html.dark body .tabs .nav-tabs a:focus {
+    border-top-color: #e40d1e;
+}
+.recent-posts .date .month, article.post .post-date .month {
+    background-color: #e11429;
+}
+#footer {
+  background: #333;
+}
+#footer .footer-ribbon {
+    background: #060606;
+}
+#footer .footer-ribbon:before {
+    border-right-color: #333;
+    border-left-color: #333;
+}
+
+
+.whatsapp-btn {
+	cursor:pointer;
+	position:fixed;
+  bottom: 55px;
+  right: 10px;
+	display:block;
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	text-indent:-9999px;
+	background-size:50% auto;
+	box-shadow:0 20px 25px rgba(0,0,0,.05);
+	transition:.2s;
+  z-index: 1040;
+}
+.telp-btn {
+	cursor:pointer;
+	position:fixed;
+  bottom: 110px;
+  right: 10px;
+	display:block;
+	width:50px;
+	height:50px;
+	border-radius:10px;
+	text-indent:-9999px;
+	background-size:50% auto;
+	box-shadow:0 20px 25px rgba(0,0,0,.05);
+	transition:.2s;
+  z-index: 1040;
+}
+.whatsapp-btn:active {
+	bottom:35px;
+}
+.telp-btn:active {
+	bottom:90px;
+}
+#whatsapp {
+	position:fixed;
+	z-index:+100;
+	bottom:0px;
+	right:0px;
+	display:block;
+	background:#fff;
+	box-shadow:0 20px 25px rgba(0,0,0,.05);
+	max-width:300px;
+	font-family:Helvetica, sans-serif;
+	font-size:90%;
+	border-radius:4px;
+	visibility:hidden;
+	opacity:0;
+	transition:.3s;
+}
+#whatsapp.toggle {
+  bottom: 40px;
+  right: 75px;
+	visibility:visible;
+	opacity:1;
+}
+@media(max-width:320px) {
+	.whatsapp-btn {
+		bottom:10px;
+		right:10px;
+	}
+	#whatsapp.toggle {
+		bottom:80px;
+		right:10px;
+		visibility:visible;
+		opacity:1;
+	}
+}
+/* #whatsapp label,
+#whatsapp a {
+	display:block;
+	margin:15px;
+	text-decoration:none;
+}
+#whatsapp input,
+#whatsapp textarea {
+	display:block;
+	border:1px solid #eee;
+	box-shadow:inset 0 2px 5px #eee;
+	width:100%;
+	padding:15px;
+	border-radius:2px;
+}
+#whatsapp input.nama {
+	text-transform:capitalize;
+}
+#whatsapp input:focus,
+#whatsapp textarea:focus {
+	border:1px solid #ddd;
+}
+#whatsapp textarea {
+	min-height:80px;
+	resize: none;
+} */
+/* #whatsapp a {
+	cursor:pointer;
+	display:block;
+	padding:10px;
+	font-weight:bold;
+	text-align:center;
+	background:#25D366;
+	color:white;
+	border-radius:2px;
+}
+#whatsapp a:hover {
+	background:#20b558;
+} */
+.pagination > .active > a, body.dark .pagination > .active > a {
+    color: #ffffff;
+    background-color: #395563;
+    border-color: #e11429 #e11429 #e11429;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background-color: #e11429 !important;
+}
